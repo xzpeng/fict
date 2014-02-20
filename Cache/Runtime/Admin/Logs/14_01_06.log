@@ -1,0 +1,63 @@
+[ 2014-01-06T11:31:18+08:00 ] 127.0.0.1 /system.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+
+[ 2014-01-06T11:31:18+08:00 ] 127.0.0.1 /system.php/Public/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.023735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023811s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000186s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name /var/www/peng/frwine/Cache/Runtime/Admin/Cache/cc4b0a749ca5cccb40c3abc8a077ff27.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014146s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000334s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000283s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000148s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001144s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2014-01-06T11:31:27+08:00 ] 127.0.0.1 /system.php/Public/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `frw_admin` [ RunTime:0.119696s ]
+SQL: SHOW COLUMNS FROM `frw_public` [ RunTime:0.000612s ]
+ERR: Table 'frwine.frw_public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `frw_public`
+NOTIC: [2] Missing argument 1 for PublicModel::auth(), called in /var/www/peng/frwine/Admin/Lib/Action/PublicAction.class.php on line 34 and defined /var/www/peng/frwine/Admin/Lib/Model/PublicModel.class.php 第 5 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_admin` WHERE ( `email`='admin' ) LIMIT 1   [ RunTime:0.010740s ]
+
+[ 2014-01-06T11:31:33+08:00 ] 127.0.0.1 /system.php/Public/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `frw_admin` [ RunTime:0.000541s ]
+NOTIC: [8] Undefined index: f51e25b964537362e062d943808c30d3 /var/www/peng/frwine/ThinkPHP/Lib/Core/Model.class.php 第 822 行.
+
+[ 2014-01-06T11:31:45+08:00 ] 127.0.0.1 /system.php/Public/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `frw_admin` [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index: f51e25b964537362e062d943808c30d3 /var/www/peng/frwine/ThinkPHP/Lib/Core/Model.class.php 第 822 行.
+

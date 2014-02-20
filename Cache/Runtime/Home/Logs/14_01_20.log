@@ -1,0 +1,43 @@
+[ 2014-01-20T10:53:23+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.009719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009821s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000536s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:1.204572s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.204655s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:2.237029s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.023717s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000416s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:2.261948s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2014-01-20T10:53:30+08:00 ] 127.0.0.1 /index.php/Dictionary
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.341836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.341963s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000201s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.497904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.498009s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000271s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000235s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000110s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000353s ]
+
